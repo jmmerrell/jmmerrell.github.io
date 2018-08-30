@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jacob Merrell"
 title_separator          : "-"
 name                     : "Jacob Merrell"
-description              : "An amazing website."
+description              : "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,8 +102,8 @@ analytics:
 author:
   name             : "Jacob Merrell"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I am an aspiring data scientist"
+  location         : "Provo, UT"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
