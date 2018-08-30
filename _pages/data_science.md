@@ -1,13 +1,11 @@
 ---
 layout: archive
-permalink: /datascience/
+permalink: /data-science/
 title: "Data Science Posts by Tags"
 author_profile: true
 header:
-	image: "/images/background.jpg"
+	image: "/images/profile.jpg"
 ---
-
-I'm an aspiring data scientist
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
