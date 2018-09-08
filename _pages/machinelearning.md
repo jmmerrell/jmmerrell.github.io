@@ -4,7 +4,7 @@ permalink: /projects/
 title: "Data Projects"
 author_profile: true
 header:
-  image: "/images/background.jpg"
+  overlay_image: "/images/background.jpg"
 ---
 
 {% include base_path %}
