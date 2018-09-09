@@ -5,4 +5,4 @@
   overlay_image: "/images/background.jpg"
 ---
 
-<embed src="https://jmmerrell.github.io/resume.pdf#zoom=300" width="300" height="500" type="application/pdf" />
+<embed src="https://jmmerrell.github.io/resume.pdf#zoom=100" width="300" height="500" type="application/pdf" />
