@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Jacob Merrell"
   avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an aspiring data scientist with professional experience as an actuary, a year of graduate level statistics courses, and two years of statistical research."
+  bio              : "I am an aspiring data scientist with professional experience as an actuary, graduate level statistics coursework, and two years of statistical research."
   location         : "Provo, Utah"
   email            :
   uri              :
