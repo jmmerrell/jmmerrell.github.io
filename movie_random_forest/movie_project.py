@@ -20,9 +20,10 @@ df = df.sort_values(by=['date'], ascending=True)
 df= df.loc[(df['infdomgross'] > 0) & (df['act1'].isnull() == False)]
 ###Create inflation adjusted budget
 df['infbudget'] = df['infdomgross']/df['domgross']*df['budget']
+####Create a new dataframe with only new movies
+df2 = df.loc[df['date']>='2000-01-01']
 
-
-print(df['franch'])
+print(df2)
 # df['Date'] = pd.to_datetime(df['Date'])
 # df['month'] = df['Date'].dt.month
 # df['winter'] = np.where(df['month'].isin([12,1,2,3]) , 1, 0)

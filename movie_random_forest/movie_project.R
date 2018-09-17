@@ -187,33 +187,6 @@ colnames(datatab)<- c("Variable Name")
 library(xtable)
 xtable(datatab,include.rownames=FALSE)
 
-# poss.cols <- c("studio","genre","basedon","factfict","thrcount","infdomgross","rating","infbudget","avgfranchgross","top1act","top3act","directgrosscur","compgrosscur","avgstudiogrosscur")
-# poss.combs <- sapply(1:14, function(x,y) combn(y,x,simplify = T),y=poss.cols)
-
-#model.matrix[model.matrix[,2]>.7&model.matrix[,4]>.95&model.matrix[,3]<87050,1]
-# ###Create a matrix to find the best variable subsets
-# model.matrix <- matrix(0,2^14-1,4)
-#    for(j in 1:14){
-#        for(k in 1:choose(14,j)){
-#              modtext <- ""
-#           for(m in 1:j){
-#                  modtext <- paste(modtext,poss.combs[[j]][m,k],sep="+")
-#                }
-#           modl <- eval(parse(text=paste("glm(infdomgross~",substring(modtext, 2),",data=data2,family=Gamma(link=log))", sep="")))
-#            r2 <- 1-modl$deviance/modl$null.deviance
-#            aic.mod <- modl$aic
-#            preds <- predict.glm(modl,se.fit=T,type="response")
-#            low.pred <- preds$fit -qgamma(.025,log(preds$fit)*preds$residual.scale,preds$residual.scale)*preds$se.fit
-#            up.pred <- preds$fit +qgamma(.975,log(preds$fit)*preds$residual.scale,preds$residual.scale)*preds$se.fit
-#            pred.perc <- mean(modl$y>=low.pred&modl$y<=up.pred)
-#            model.matrix[sum(sapply(1:j,function(x) choose(5,x-1)))+k-1,1]<-modtext
-#            model.matrix[sum(sapply(1:j,function(x) choose(5,x-1)))+k-1,2]<-r2
-#            model.matrix[sum(sapply(1:j,function(x) choose(5,x-1)))+k-1,3]<-aic.mod
-#            model.matrix[sum(sapply(1:j,function(x) choose(5,x-1)))+k-1,4]<-pred.perc
-#            
-#              }
-#      }
-# 
 library(randomForest)
 
 data3 <- data2[,c(13,4:7,9,40,41,82:91)]
