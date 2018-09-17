@@ -1,4 +1,4 @@
-setwd("~/Documents/aSchool/536 - Stat Learning and Data Mining")
+setwd("C:/Users/merre/Desktop/jmmerrell.github.io/ozone_spatial")
 loc <- read.table("PredLocs.csv", header = T,sep=",")
 cmaq <- read.table("CMAQ.csv",header=T,sep=",")
 oz <- read.table("Ozone.csv",header=T,sep=",")
@@ -10,9 +10,6 @@ min.dist <- function(i){
   c(disC[1:1000,1],disC[1:1000,2])
 }
 
-
-
-  
 ##data used to fit model
 
 data <- loc
@@ -22,8 +19,6 @@ for(i in 1:2685){
   r <- min.dist(i)
   data[i,3:2002]<-r
 }
-
-
 allvars <- NULL
 
 ###lowest AIC 
