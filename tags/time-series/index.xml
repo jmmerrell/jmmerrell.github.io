@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time Series on My Data Science</title>
+    <link>https://jmmerrell.github.io/jmmerrell_portfolio/tags/time-series/</link>
+    <description>Recent content in Time Series on My Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jmmerrell.github.io/jmmerrell_portfolio/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Solar AR(1)</title>
+      <link>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-time/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-time/</guid>
+      <description>Times series data collected from solar panels was used to estimate how much money could be saved using solar energy.
+R Code Python Code</description>
+    </item>
+    
+  </channel>
+</rss>

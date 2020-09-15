@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on My Data Science</title>
+    <link>https://jmmerrell.github.io/jmmerrell_portfolio/post/</link>
+    <description>Recent content in Projects on My Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://jmmerrell.github.io/jmmerrell_portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Box Office Revenue Projections</title>
+      <link>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-movies/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-movies/</guid>
+      <description>This project uses movie data scraped from The Numbers website to project box office revenue. Random forest is the method used to predict box office revenue.
+R Code Python Code</description>
+    </item>
+    
+    <item>
+      <title>Ozone Levels</title>
+      <link>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-spatial/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-spatial/</guid>
+      <description>O3 is the main component of smog. CMAQ is a method to estimate the O3 levels in an area. This study explores the relationship between CMAQ measurements and O3 levels. We also construct a statistical model that deals with the spatial correlation between CMAQ values at different locations.
+R Code Python Code</description>
+    </item>
+    
+    <item>
+      <title>Solar AR(1)</title>
+      <link>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-time/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-time/</guid>
+      <description>Times series data collected from solar panels was used to estimate how much money could be saved using solar energy.
+R Code Python Code</description>
+    </item>
+    
+  </channel>
+</rss>
