@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Random Forest on My Data Science</title>
-    <link>https://jmmerrell.github.io/jmmerrell_portfolio/tags/random-forest/</link>
+    <link>https://jmmerrell.github.io/tags/random-forest/</link>
     <description>Recent content in Random Forest on My Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jmmerrell.github.io/jmmerrell_portfolio/tags/random-forest/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jmmerrell.github.io/tags/random-forest/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Box Office Revenue Projections</title>
-      <link>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-movies/</link>
+      <link>https://jmmerrell.github.io/post/2018-09-03-movies/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jmmerrell.github.io/jmmerrell_portfolio/post/2018-09-03-movies/</guid>
+      <guid>https://jmmerrell.github.io/post/2018-09-03-movies/</guid>
       <description>This project uses movie data scraped from The Numbers website to project box office revenue. Random forest is the method used to predict box office revenue.
 R Code Python Code</description>
     </item>
