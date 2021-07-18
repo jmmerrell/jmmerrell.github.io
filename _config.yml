@@ -100,8 +100,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jacob Merrel"
-  avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Jacob Merrell"
+  avatar           : "/assests/img/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an aspiring data scientist with professional experience as an actuary, graduate level statistics coursework, and two years of statistical research."
   location         : "Phoenix, Arizona"
   email            :
