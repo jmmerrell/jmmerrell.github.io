@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise","default"
 
 # Site Settings
 locale                   : "en-US"
@@ -102,10 +102,10 @@ analytics:
 author:
   name             : "Jacob Merrell"
   avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an aspiring data scientist with professional experience as an actuary, graduate level statistics coursework, and two years of statistical research."
+  bio              : "I have a love for data science, making YouTube content, playing racket sports, and trying to be a semi-cool nerd."
   location         : "Phoenix, Arizona"
-  email            :
-  uri              :
+  email            : "merrell.jacob@gmail.com"
+  uri              : 
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
