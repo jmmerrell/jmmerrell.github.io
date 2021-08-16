@@ -6,7 +6,7 @@ tags: [XGBoost,YouTube,API,Google Vision]
 # - toc: false
 # - badges: true
 # - comments: true
-# - image: images/youtube.jpg
+image: images/youtube.jpg
 ---
 
 Times series data collected from solar panels was used to estimate how much money could be saved using solar energy.  
