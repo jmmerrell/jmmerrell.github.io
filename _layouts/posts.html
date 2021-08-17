@@ -19,7 +19,7 @@ layout: archive
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
-    <div class="entries-{{ page.entries_layout | default: 'list' }} col-lg-12 col-md-12 col-md-offset-1">
+    <div class="entries-{{ page.entries_layout | default: 'list' }} col-lg-6 col-md-6 col-md-offset-1">
       {% for post in year.items %}
         {% include archive-single.html type=page.entries_layout %}
       {% endfor %}
