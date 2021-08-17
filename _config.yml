@@ -170,7 +170,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: GFM #GFM #CommonMarkGhPages #kramdown
+markdown: kramdown #GFM #CommonMarkGhPages #kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
