@@ -60,7 +60,7 @@ I merge together all the datasets taken from YouTube's API with the Google Visio
 
 <details><summary>Here is the YouTube API Data Pull CODE</summary>
 <p>
-<% import json
+import json
 import requests
 from numpy import random
 from time import sleep
@@ -253,14 +253,11 @@ for channel_id in channel_ids:
     yt.get_channel_video_data()
     yt.dump()
 
-%>
 </p>
 </details>
 
 <details><summary>Here is the Convert JSON to Pandas CODE</summary>
 <p>
-
-```python
 
 import json
 from os import replace
@@ -446,16 +443,12 @@ for file in files:
     df.to_csv(file.replace('json','txt'))
 
 
-```
-
 </p>
 </details>
 
 
 <details><summary>Here is the Functions to Query Google Vision API CODE</summary>
 <p>
-
-```python
 
 import httplib2
 import sys
@@ -637,7 +630,6 @@ def draw_text(im, text,loc):
 	cv2.putText(new_img, text, loc, font_face, 2.5, (102,255,0), thickness)
 	return new_img
 
-```
 </p>
 </details>
 
@@ -645,8 +637,6 @@ def draw_text(im, text,loc):
 
 <details><summary>Here is the Google Vision API Data Pull CODE</summary>
 <p>
-
-```python
 
 from datetime import date
 import datetime
@@ -825,7 +815,6 @@ for i in range(len(vid_ids)):
 			print("Num videos",i,"---- Percent complete:",(round(i/len(vid_ids),3))*100)
 
 
-```
 </p>
 </details>
 
