@@ -60,10 +60,7 @@ I merge together all the datasets taken from YouTube's API with the Google Visio
 
 <details><summary>Here is the YouTube API Data Pull CODE</summary>
 <p>
-
-```python
-
-import json
+<% import json
 import requests
 from numpy import random
 from time import sleep
@@ -256,8 +253,7 @@ for channel_id in channel_ids:
     yt.get_channel_video_data()
     yt.dump()
 
-
-```
+%>
 </p>
 </details>
 
