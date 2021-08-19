@@ -10,7 +10,7 @@ image: images/youtube.jpg
 
 ![kaggle_img000](/images/youtube_xgboost/youtube.jpg?raw=true)
 
-I wanted to find the features that help me get more views on YouTube. Successfully identified which YouTube videos are successful with 86% accuracy. I used the YouTube API to gather data from my competitors on YouTube. I also used Google Vision's deep learning models to analyze thumbnail images, and add that data to the YouTube API data. Data from nearly 2,000 videos was used to train and test an XGBoost model.  
+I wanted to find the features that help me get more views on YouTube. Identified which YouTube videos are successful with 86% accuracy. I used the YouTube API to gather data from my competitors on YouTube. I also used Google Vision's deep learning models to analyze thumbnail images, and add that data to the YouTube API data. Data from nearly 2,000 videos was used to train and test an XGBoost model.  
 
 ## 1. Objective
 
