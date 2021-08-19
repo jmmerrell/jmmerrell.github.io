@@ -1943,7 +1943,7 @@ for i in keeps:
 We successfully predicted the success of YouTube videos with 86% accuracy. Here are some of the factors that contribute to a successful YouTube Video among the channels we studied.
 
 *   A successful video last between 6 to 12 minutes (around 10 minutes videos perform the best).
-*   When uploading video you should have at least 20 tags
+*   When uploading video one should have at least 20 tags
 *   Put the title of the video in the description
 *   Videos with short titles (less than 40 characters) didn't perform as well
 *   The thumbnail image should include as few words as possible and should be high definition
