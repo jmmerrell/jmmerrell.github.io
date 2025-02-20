@@ -103,7 +103,7 @@ author:
   name             : "Jacob Merrell"
   avatar           : "/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I have a love for data science, making YouTube content, playing racket sports, and trying to be a semi-cool nerd."
-  location         : "Phoenix, Arizona"
+  location         : "Salt Lake City, Utah"
   email            : "merrell.jacob@gmail.com"
   uri              : 
   home             : # null (default), "absolute or relative url to link to author home"
